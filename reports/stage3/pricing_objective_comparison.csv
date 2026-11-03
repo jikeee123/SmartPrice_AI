@@ -1,0 +1,3 @@
+﻿objective,baseline_total_revenue_cny,optimized_total_revenue_cny,total_revenue_change_rate,baseline_contribution_profit_cny,optimized_contribution_profit_cny,contribution_profit_change_rate,optimized_visitors,capacity_utilization_rate,capacity_constraint_status,solver_success
+revenue,888719.02,932440.53,0.0492,753157.62,781410.36,0.0375,3931.39,0.7863,PASS,True
+profit,888719.02,931980.11,0.0487,753157.62,784863.69,0.0421,3882.63,0.7765,PASS,True

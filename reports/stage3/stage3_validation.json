@@ -1,0 +1,17 @@
+{
+  "sqlite_integrity": true,
+  "foreign_keys": true,
+  "daily_rows_365": true,
+  "monthly_rows_12": true,
+  "six_elasticity_models": true,
+  "forecast_has_test_rows": true,
+  "all_recommended_prices_positive": true,
+  "price_change_within_10pct": true,
+  "price_recommendations_within_product_bounds": true,
+  "forecast_beats_lag7_baseline_wape": true,
+  "revenue_optimizer_capacity_pass": true,
+  "profit_optimizer_capacity_pass": true,
+  "revenue_optimizer_solver_success": true,
+  "profit_optimizer_solver_success": true,
+  "status": "PASS"
+}

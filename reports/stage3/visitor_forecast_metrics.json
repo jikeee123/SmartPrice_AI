@@ -1,0 +1,20 @@
+{
+  "model": "RandomForestRegressor",
+  "train_period": [
+    "2025-01-08",
+    "2025-10-31"
+  ],
+  "test_period": [
+    "2025-11-01",
+    "2025-12-31"
+  ],
+  "train_rows": 297,
+  "test_rows": 61,
+  "mae_visitors": 172.36,
+  "rmse_visitors": 214.16,
+  "wape": 0.1432,
+  "r_squared": 0.1627,
+  "baseline_lag7_mae_visitors": 203.18,
+  "baseline_lag7_wape": 0.1688,
+  "evaluation_note": "Chronological holdout with rolling one-step-ahead lag features. For each test date, lag features use observed prior-day history; this is not a fixed-origin 60-day forecast."
+}

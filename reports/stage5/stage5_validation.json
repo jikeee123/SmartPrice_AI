@@ -1,0 +1,22 @@
+{
+  "app_and_ai_module_syntax": true,
+  "daily_data_available": true,
+  "product_data_available": true,
+  "channel_data_available": true,
+  "secondary_data_available": true,
+  "variance_available": true,
+  "revenue_decomposition_reconciles": true,
+  "profit_identity_reconciles": true,
+  "revenue_components_reconcile": true,
+  "cost_components_reconcile": true,
+  "monthly_report_generated": true,
+  "report_contains_synthetic_data_notice": true,
+  "report_contains_management_recommendations": true,
+  "local_kpi_question_answered": true,
+  "local_product_question_answered": true,
+  "local_variance_question_answered": true,
+  "local_channel_question_answered": true,
+  "local_fallback_works": true,
+  "no_external_llm_required": true,
+  "status": "PASS"
+}

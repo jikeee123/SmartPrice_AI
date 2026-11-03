@@ -1,0 +1,30 @@
+{
+  "target_date": "2025-10-04",
+  "objective": "revenue",
+  "capacity_target_rate": 0.85,
+  "capacity_limit_visitors": 4250.0,
+  "solver_success": true,
+  "solver_message": "Optimization terminated successfully",
+  "baseline": {
+    "predicted_visitors": 3524.5,
+    "capacity_utilization_rate": 0.7049,
+    "ticket_package_revenue_cny": 727175.68,
+    "addon_secondary_revenue_cny": 161543.34,
+    "total_revenue_cny": 888719.02,
+    "contribution_profit_cny": 753157.62,
+    "predicted_avg_queue_wait_min": 23.88
+  },
+  "optimized": {
+    "predicted_visitors": 3931.39,
+    "capacity_utilization_rate": 0.7863,
+    "ticket_package_revenue_cny": 752247.79,
+    "addon_secondary_revenue_cny": 180192.74,
+    "total_revenue_cny": 932440.53,
+    "contribution_profit_cny": 781410.36,
+    "predicted_avg_queue_wait_min": 28.49
+  },
+  "total_revenue_change_rate": 0.0492,
+  "contribution_profit_change_rate": 0.0375,
+  "capacity_constraint_status": "PASS",
+  "interpretation_note": "All figures are model-based estimates on synthetic data. They are not observed real-world uplift or a validated production pricing policy."
+}

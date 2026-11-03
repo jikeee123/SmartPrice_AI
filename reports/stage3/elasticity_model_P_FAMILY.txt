@@ -1,0 +1,49 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:     np.log(net_orders)   R-squared:                       0.845
+Model:                            OLS   Adj. R-squared:                  0.834
+Method:                 Least Squares   F-statistic:                     90.39
+Date:                Mon, 02 Nov 2026   Prob (F-statistic):          5.18e-130
+Time:                        17:42:54   Log-Likelihood:                 254.46
+No. Observations:                 365   AIC:                            -460.9
+Df Residuals:                     341   BIC:                            -367.3
+Df Model:                          23                                         
+Covariance Type:                  HC3                                         
+===============================================================================================
+                                  coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------
+Intercept                      10.0352      2.064      4.861      0.000       5.989      14.082
+C(weather_type)[T.晴]            0.0449      0.016      2.855      0.004       0.014       0.076
+C(weather_type)[T.雨]           -0.3405      0.040     -8.586      0.000      -0.418      -0.263
+C(weather_type)[T.雪]           -0.6995      0.062    -11.331      0.000      -0.820      -0.578
+C(month_num)[T.2]               0.0659      0.040      1.646      0.100      -0.013       0.144
+C(month_num)[T.3]               0.2442      0.044      5.543      0.000       0.158       0.330
+C(month_num)[T.4]               0.3360      0.046      7.373      0.000       0.247       0.425
+C(month_num)[T.5]               0.4450      0.051      8.767      0.000       0.346       0.545
+C(month_num)[T.6]               0.4360      0.055      7.922      0.000       0.328       0.544
+C(month_num)[T.7]               0.5432      0.062      8.824      0.000       0.423       0.664
+C(month_num)[T.8]               0.5303      0.059      9.022      0.000       0.415       0.646
+C(month_num)[T.9]               0.4187      0.054      7.699      0.000       0.312       0.525
+C(month_num)[T.10]              0.6508      0.046     14.002      0.000       0.560       0.742
+C(month_num)[T.11]              0.2332      0.041      5.742      0.000       0.154       0.313
+C(month_num)[T.12]              0.0363      0.039      0.943      0.346      -0.039       0.112
+np.log(list_unit_price_cny)    -1.0276      0.323     -3.178      0.001      -1.661      -0.394
+is_weekend                      0.2698      0.019     13.924      0.000       0.232       0.308
+is_holiday                      0.4084      0.036     11.338      0.000       0.338       0.479
+is_school_vacation              0.1643      0.041      3.965      0.000       0.083       0.245
+avg_temp_c                     -0.0015      0.002     -0.941      0.347      -0.005       0.002
+precipitation_mm                0.0037      0.003      1.079      0.280      -0.003       0.010
+marketing_campaign_flag         0.1053      0.028      3.788      0.000       0.051       0.160
+special_event_flag              0.1066      0.043      2.487      0.013       0.023       0.191
+competitor_price_cny            0.0029      0.002      1.738      0.082      -0.000       0.006
+==============================================================================
+Omnibus:                        3.274   Durbin-Watson:                   2.117
+Prob(Omnibus):                  0.195   Jarque-Bera (JB):                2.482
+Skew:                          -0.038   Prob(JB):                        0.289
+Kurtosis:                       2.603   Cond. No.                     7.17e+04
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+[2] The condition number is large, 7.17e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.

@@ -1,0 +1,107 @@
+{
+  "available": true,
+  "month": "2025-10",
+  "previous_month": "2025-09",
+  "current": {
+    "month": "2025-10",
+    "total_revenue_cny": 15705791.5,
+    "ticket_package_revenue_cny": 12725929.43,
+    "addon_fnb_revenue_cny": 1987917.15,
+    "merchandise_revenue_cny": 991944.92,
+    "actual_visitors": 64832,
+    "contribution_profit_cny": 13203101.76,
+    "total_variable_cost_cny": 2502689.74,
+    "ticket_variable_cost_cny": 1310906.0,
+    "secondary_cogs_cny": 1191783.74,
+    "revenue_per_visitor_cny": 242.2536941633761,
+    "contribution_margin_rate": 0.8406517914108308
+  },
+  "previous": {
+    "month": "2025-09",
+    "total_revenue_cny": 10447605.37,
+    "ticket_package_revenue_cny": 8413475.61,
+    "addon_fnb_revenue_cny": 1404461.94,
+    "merchandise_revenue_cny": 629667.8200000001,
+    "actual_visitors": 43781,
+    "contribution_profit_cny": 8761770.46,
+    "total_variable_cost_cny": 1685834.91,
+    "ticket_variable_cost_cny": 877988.0,
+    "secondary_cogs_cny": 807846.91,
+    "revenue_per_visitor_cny": 238.6333197048948,
+    "contribution_margin_rate": 0.8386391091263051
+  },
+  "changes": {
+    "total_revenue_cny": {
+      "previous": 10447605.37,
+      "current": 15705791.5,
+      "delta": 5258186.130000001,
+      "change_rate": 0.5032910359630095
+    },
+    "actual_visitors": {
+      "previous": 43781.0,
+      "current": 64832.0,
+      "delta": 21051.0,
+      "change_rate": 0.48082501541764694
+    },
+    "revenue_per_visitor_cny": {
+      "previous": 238.6333197048948,
+      "current": 242.2536941633761,
+      "delta": 3.620374458481308,
+      "change_rate": 0.015171286486557843
+    },
+    "contribution_profit_cny": {
+      "previous": 8761770.46,
+      "current": 13203101.76,
+      "delta": 4441331.299999999,
+      "change_rate": 0.506898841995
+    },
+    "total_variable_cost_cny": {
+      "previous": 1685834.91,
+      "current": 2502689.74,
+      "delta": 816854.8300000003,
+      "change_rate": 0.48454022701428123
+    },
+    "contribution_margin_rate": {
+      "previous": 0.8386391091263051,
+      "current": 0.8406517914108308,
+      "delta": 0.0020126822845256687,
+      "change_rate": 0.0023999384987214377
+    }
+  },
+  "revenue_components": {
+    "门票及套餐": {
+      "previous": 8413475.61,
+      "current": 12725929.43,
+      "delta": 4312453.82
+    },
+    "增量餐饮": {
+      "previous": 1404461.94,
+      "current": 1987917.15,
+      "delta": 583455.21
+    },
+    "周边商品": {
+      "previous": 629667.8200000001,
+      "current": 991944.92,
+      "delta": 362277.1
+    }
+  },
+  "cost_components": {
+    "门票及套餐变动成本": {
+      "previous": 877988.0,
+      "current": 1310906.0,
+      "delta": 432918.0
+    },
+    "二次消费商品成本": {
+      "previous": 807846.91,
+      "current": 1191783.74,
+      "delta": 383936.82999999996
+    }
+  },
+  "revenue_volume_effect": 5023470.01310774,
+  "revenue_spend_per_visitor_effect": 234716.11689226015,
+  "revenue_reconciliation_residual": 3.4924596548080444e-10,
+  "revenue_delta": 5258186.130000001,
+  "cost_delta": 816854.8300000003,
+  "profit_delta": 4441331.299999999,
+  "profit_identity_residual": -1.862645149230957e-09
+}

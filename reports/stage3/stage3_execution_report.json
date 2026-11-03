@@ -1,0 +1,231 @@
+{
+  "stage": "Stage 3 - Business Analytics and Pricing Models",
+  "status": "COMPLETED",
+  "business_kpi_summary": {
+    "period_start": "2025-01-01",
+    "period_end": "2025-12-31",
+    "total_revenue_cny": 134827361.33,
+    "ticket_package_revenue_cny": 109155900.04,
+    "addon_fnb_revenue_cny": 17400432.24,
+    "merchandise_revenue_cny": 8271029.05,
+    "actual_visitors": 560092,
+    "revenue_per_visitor_cny": 240.72,
+    "contribution_profit_cny": 113310445.43,
+    "contribution_margin_rate": 0.8404
+  },
+  "elasticity_models_fitted": 6,
+  "elasticity_diagnostics": [
+    {
+      "product_id": "P_FAMILY",
+      "status": "FIT_OK",
+      "nobs": 365
+    },
+    {
+      "product_id": "P_MEAL",
+      "status": "FIT_OK",
+      "nobs": 365
+    },
+    {
+      "product_id": "P_RAINY",
+      "status": "FIT_OK",
+      "nobs": 365
+    },
+    {
+      "product_id": "T_ADULT",
+      "status": "FIT_OK",
+      "nobs": 365
+    },
+    {
+      "product_id": "T_CHILD",
+      "status": "FIT_OK",
+      "nobs": 365
+    },
+    {
+      "product_id": "T_NIGHT",
+      "status": "FIT_OK",
+      "nobs": 365
+    }
+  ],
+  "elasticity_results": [
+    {
+      "product_id": "P_FAMILY",
+      "product_name": "家庭组合票",
+      "nobs": 365,
+      "price_elasticity": -1.0276259634841092,
+      "std_error_hc3": 0.32333444082576457,
+      "p_value": 0.0014818546438564546,
+      "ci_95_lower": -1.6613498224640049,
+      "ci_95_upper": -0.39390210450421337,
+      "r_squared": 0.8445451943130718,
+      "adjusted_r_squared": 0.8340599728151266,
+      "interpretation": "需求对价格较敏感",
+      "statistical_significance_5pct": true,
+      "model_note": "OLS log-log; HC3 robust standard errors; synthetic data"
+    },
+    {
+      "product_id": "P_MEAL",
+      "product_name": "门票餐饮组合套餐",
+      "nobs": 365,
+      "price_elasticity": -0.8878768985587838,
+      "std_error_hc3": 0.39171574777715373,
+      "p_value": 0.0234124892951131,
+      "ci_95_lower": -1.655625656379181,
+      "ci_95_upper": -0.12012814073838674,
+      "r_squared": 0.8303780872957415,
+      "adjusted_r_squared": 0.818937313125073,
+      "interpretation": "需求对价格相对不敏感",
+      "statistical_significance_5pct": true,
+      "model_note": "OLS log-log; HC3 robust standard errors; synthetic data"
+    },
+    {
+      "product_id": "P_RAINY",
+      "product_name": "雨天室内优先套餐",
+      "nobs": 365,
+      "price_elasticity": -0.8206119081882867,
+      "std_error_hc3": 0.2989640530258469,
+      "p_value": 0.006053829782723343,
+      "ci_95_lower": -1.4065706847910695,
+      "ci_95_upper": -0.23465313158550383,
+      "r_squared": 0.8827305523549501,
+      "adjusted_r_squared": 0.8748208828656946,
+      "interpretation": "需求对价格相对不敏感",
+      "statistical_significance_5pct": true,
+      "model_note": "OLS log-log; HC3 robust standard errors; synthetic data"
+    },
+    {
+      "product_id": "T_ADULT",
+      "product_name": "成人日间票",
+      "nobs": 365,
+      "price_elasticity": -1.5022186741783905,
+      "std_error_hc3": 0.3379048938684287,
+      "p_value": 8.761229984476341e-06,
+      "ci_95_lower": -2.16450009636034,
+      "ci_95_upper": -0.8399372519964409,
+      "r_squared": 0.8099971699632312,
+      "adjusted_r_squared": 0.7971817298141237,
+      "interpretation": "需求对价格较敏感",
+      "statistical_significance_5pct": true,
+      "model_note": "OLS log-log; HC3 robust standard errors; synthetic data"
+    },
+    {
+      "product_id": "T_CHILD",
+      "product_name": "儿童日间票",
+      "nobs": 365,
+      "price_elasticity": -0.6807282481854982,
+      "std_error_hc3": 0.5182573452825363,
+      "p_value": 0.18901632390614442,
+      "ci_95_lower": -1.6964939796626086,
+      "ci_95_upper": 0.3350374832916123,
+      "r_squared": 0.8303004734800452,
+      "adjusted_r_squared": 0.8188544643599309,
+      "interpretation": "需求对价格相对不敏感",
+      "statistical_significance_5pct": false,
+      "model_note": "OLS log-log; HC3 robust standard errors; synthetic data"
+    },
+    {
+      "product_id": "T_NIGHT",
+      "product_name": "夜场票",
+      "nobs": 365,
+      "price_elasticity": -1.6858413167853958,
+      "std_error_hc3": 0.3714935005986978,
+      "p_value": 5.678749849012891e-06,
+      "ci_95_lower": -2.4139551984495524,
+      "ci_95_upper": -0.9577274351212391,
+      "r_squared": 0.8025591457702781,
+      "adjusted_r_squared": 0.7892420207049303,
+      "interpretation": "需求对价格较敏感",
+      "statistical_significance_5pct": true,
+      "model_note": "OLS log-log; HC3 robust standard errors; synthetic data"
+    }
+  ],
+  "forecast_metrics": {
+    "model": "RandomForestRegressor",
+    "train_period": [
+      "2025-01-08",
+      "2025-10-31"
+    ],
+    "test_period": [
+      "2025-11-01",
+      "2025-12-31"
+    ],
+    "train_rows": 297,
+    "test_rows": 61,
+    "mae_visitors": 172.36,
+    "rmse_visitors": 214.16,
+    "wape": 0.1432,
+    "r_squared": 0.1627,
+    "baseline_lag7_mae_visitors": 203.18,
+    "baseline_lag7_wape": 0.1688,
+    "evaluation_note": "Chronological holdout with rolling one-step-ahead lag features. For each test date, lag features use observed prior-day history; this is not a fixed-origin 60-day forecast."
+  },
+  "pricing_optimizations": {
+    "revenue": {
+      "target_date": "2025-10-04",
+      "objective": "revenue",
+      "capacity_target_rate": 0.85,
+      "capacity_limit_visitors": 4250.0,
+      "solver_success": true,
+      "solver_message": "Optimization terminated successfully",
+      "baseline": {
+        "predicted_visitors": 3524.5,
+        "capacity_utilization_rate": 0.7049,
+        "ticket_package_revenue_cny": 727175.68,
+        "addon_secondary_revenue_cny": 161543.34,
+        "total_revenue_cny": 888719.02,
+        "contribution_profit_cny": 753157.62,
+        "predicted_avg_queue_wait_min": 23.88
+      },
+      "optimized": {
+        "predicted_visitors": 3931.39,
+        "capacity_utilization_rate": 0.7863,
+        "ticket_package_revenue_cny": 752247.79,
+        "addon_secondary_revenue_cny": 180192.74,
+        "total_revenue_cny": 932440.53,
+        "contribution_profit_cny": 781410.36,
+        "predicted_avg_queue_wait_min": 28.49
+      },
+      "total_revenue_change_rate": 0.0492,
+      "contribution_profit_change_rate": 0.0375,
+      "capacity_constraint_status": "PASS",
+      "interpretation_note": "All figures are model-based estimates on synthetic data. They are not observed real-world uplift or a validated production pricing policy."
+    },
+    "profit": {
+      "target_date": "2025-10-04",
+      "objective": "profit",
+      "capacity_target_rate": 0.85,
+      "capacity_limit_visitors": 4250.0,
+      "solver_success": true,
+      "solver_message": "Optimization terminated successfully",
+      "baseline": {
+        "predicted_visitors": 3524.5,
+        "capacity_utilization_rate": 0.7049,
+        "ticket_package_revenue_cny": 727175.68,
+        "addon_secondary_revenue_cny": 161543.34,
+        "total_revenue_cny": 888719.02,
+        "contribution_profit_cny": 753157.62,
+        "predicted_avg_queue_wait_min": 23.88
+      },
+      "optimized": {
+        "predicted_visitors": 3882.63,
+        "capacity_utilization_rate": 0.7765,
+        "ticket_package_revenue_cny": 754022.06,
+        "addon_secondary_revenue_cny": 177958.05,
+        "total_revenue_cny": 931980.11,
+        "contribution_profit_cny": 784863.69,
+        "predicted_avg_queue_wait_min": 27.91
+      },
+      "total_revenue_change_rate": 0.0487,
+      "contribution_profit_change_rate": 0.0421,
+      "capacity_constraint_status": "PASS",
+      "interpretation_note": "All figures are model-based estimates on synthetic data. They are not observed real-world uplift or a validated production pricing policy."
+    }
+  },
+  "important_limitations": [
+    "All source data are synthetic.",
+    "Forecast backtest uses rolling one-step-ahead lag features, not a fixed-origin 60-day forecast.",
+    "Price elasticity is estimated from synthetic data and should not be interpreted as a real market causal effect.",
+    "At least one product may have a statistically insignificant price coefficient; interpret product-level results individually.",
+    "Pricing recommendations are demonstration scenarios, not operational instructions.",
+    "Contribution profit excludes fixed costs, depreciation, tax and financing costs."
+  ]
+}

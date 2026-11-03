@@ -1,0 +1,19 @@
+{
+  "sqlite_integrity": true,
+  "all_expected_tables_present": true,
+  "daily_data_365_days": true,
+  "six_products_available": true,
+  "three_sales_channels_available": true,
+  "secondary_categories_available": true,
+  "revenue_nonnegative": true,
+  "product_contribution_margin_bounded": true,
+  "six_elasticity_models": true,
+  "decision_assistant_returns_insights": true,
+  "revenue_pricing_solver_success": true,
+  "profit_pricing_solver_success": true,
+  "revenue_capacity_constraint_pass": true,
+  "profit_capacity_constraint_pass": true,
+  "six_recommendations_each_objective": true,
+  "price_adjustments_respect_10pct": true,
+  "status": "PASS"
+}

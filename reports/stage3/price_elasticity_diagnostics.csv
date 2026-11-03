@@ -1,0 +1,7 @@
+﻿product_id,status,nobs,aic,bic,condition_number,message
+P_FAMILY,FIT_OK,365,-460.9292003527115,-367.33166386673173,71684.77316708928,Product-level log-log regression with calendar and weather controls.
+P_MEAL,FIT_OK,365,-432.37986502264164,-338.78232853666185,71860.05955574213,Product-level log-log regression with calendar and weather controls.
+P_RAINY,FIT_OK,365,-484.6853020602149,-391.0877655742351,64456.37708793112,Product-level log-log regression with calendar and weather controls.
+T_ADULT,FIT_OK,365,-400.66845184155557,-307.0709153555758,59538.680925730965,Product-level log-log regression with calendar and weather controls.
+T_CHILD,FIT_OK,365,-442.8771987234769,-349.2796622374971,70671.83842283093,Product-level log-log regression with calendar and weather controls.
+T_NIGHT,FIT_OK,365,-390.54083472844025,-296.94329824246046,54709.17006732923,Product-level log-log regression with calendar and weather controls.

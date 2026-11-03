@@ -1,0 +1,12 @@
+{
+  "period_start": "2025-01-01",
+  "period_end": "2025-12-31",
+  "total_revenue_cny": 134827361.33,
+  "ticket_package_revenue_cny": 109155900.04,
+  "addon_fnb_revenue_cny": 17400432.24,
+  "merchandise_revenue_cny": 8271029.05,
+  "actual_visitors": 560092,
+  "revenue_per_visitor_cny": 240.72,
+  "contribution_profit_cny": 113310445.43,
+  "contribution_margin_rate": 0.8404
+}

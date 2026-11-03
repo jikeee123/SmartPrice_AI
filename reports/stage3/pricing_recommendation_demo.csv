@@ -1,0 +1,7 @@
+﻿target_date,product_id,product_name,baseline_price_cny,recommended_price_cny,price_change_rate,baseline_predicted_orders,recommended_predicted_orders,recommended_product_revenue_cny,optimization_objective,capacity_constraint_status,at_price_bound,solver_success,solver_message
+2025-10-04,T_ADULT,成人日间票,235.0,211.5,-0.1,1617.27,1894.62,387354.06,revenue,PASS,True,True,Optimization terminated successfully
+2025-10-04,T_CHILD,儿童日间票,160.0,176.0,0.1,514.38,482.06,82015.15,revenue,PASS,True,True,Optimization terminated successfully
+2025-10-04,T_NIGHT,夜场票,130.0,117.0,-0.1,296.05,353.59,39991.52,revenue,PASS,True,True,Optimization terminated successfully
+2025-10-04,P_FAMILY,家庭组合票,600.0,540.0,-0.1,245.59,273.68,142859.58,revenue,PASS,True,True,Optimization terminated successfully
+2025-10-04,P_MEAL,门票餐饮组合套餐,300.0,270.0,-0.1,272.07,298.75,77973.33,revenue,PASS,True,True,Optimization terminated successfully
+2025-10-04,P_RAINY,雨天室内优先套餐,255.0,280.5,0.1,87.95,81.34,22054.14,revenue,PASS,True,True,Optimization terminated successfully

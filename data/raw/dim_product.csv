@@ -1,0 +1,7 @@
+﻿product_id,product_name,product_category,customer_segment,base_price_cny,min_price_cny,max_price_cny,visitor_units_per_order,admission_revenue_share,included_fnb_revenue_share,unit_variable_cost_cny,is_active
+T_ADULT,成人日间票,single_ticket,adult,220,160,320,1,1.0,0.0,18,1
+T_CHILD,儿童日间票,single_ticket,child,150,110,230,1,1.0,0.0,14,1
+T_NIGHT,夜场票,single_ticket,all,120,80,190,1,1.0,0.0,12,1
+P_FAMILY,家庭组合票,package,family,560,430,760,3,1.0,0.0,48,1
+P_MEAL,门票餐饮组合套餐,package,all,280,220,390,1,0.85,0.15,62,1
+P_RAINY,雨天室内优先套餐,package,all,240,190,340,1,0.9,0.1,30,1
